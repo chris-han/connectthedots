@@ -26,14 +26,14 @@ namespace ConnectTheDotsWPSensors
         const string LocationKeyname = "location";
 
         // The default value of our settings
-        const bool SettingsSetDefault = false;
-        const string ServicebusNamespaceDefault = "";
-        const string EventHubNameDefault = "";
-        const string KeyNameDefault = "";
-        const string KeyDefault = "";
-        const string DisplayNameDefault = "";
-        const string OrganizationDefault = "";
-        const string LocationDefault = "";
+        const bool SettingsSetDefault = true;
+        const string ServicebusNamespaceDefault = "openIoT-ns";
+        const string EventHubNameDefault = "ehdevices";
+        const string KeyNameDefault = "D1";
+        const string KeyDefault = "8/tTqUCLvgRfDqUy6gxKSlnI+nKSe96duRLcBdXqsXQ=";
+        const string DisplayNameDefault = "Lumia";
+        const string OrganizationDefault = "MTC";
+        const string LocationDefault = "Beijing";
 
         /// <summary>
         /// Constructor that gets the application settings.
